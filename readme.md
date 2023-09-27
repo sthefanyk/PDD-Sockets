@@ -1,7 +1,7 @@
 ####Para testar:
 
 1. Execute o servidor com o comando
-   node server.js
+   npm run dev
 
 2. Abra o arquivo recebedor.html
 

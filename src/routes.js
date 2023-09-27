@@ -1,10 +1,9 @@
-var express = require('express');
-var router = express.Router();
+var router = require('express').Router();
 
 router.route('/notify')
     .get(function (req, res) {
         res.json({
-            message: "testing route"
+            message: process.env.NOTIFICATION_TEST_MESSAGE
         });
     });
 
